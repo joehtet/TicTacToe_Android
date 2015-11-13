@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/joe/AndroidStudioProjects/TicTacToe/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/home/joe/AndroidStudioProjects/TicTacToe/app/build/intermediates/pre-dexed/debug/classes-abd7fad5dfb1c65c74e5321f6aa31298e9ba5ed9.jar" />
+    </item>
+    <item
+        jar="/home/joe/AndroidStudioProjects/TicTacToe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/joe/AndroidStudioProjects/TicTacToe/app/build/intermediates/pre-dexed/debug/classes-d26ae20276a4c6dec31848483bc2da7ecc8aa96a.jar" />
+    </item>
+    <item
+        jar="/home/joe/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/joe/AndroidStudioProjects/TicTacToe/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-a73deeebc862c244654a184c9f4b0e088351d242.jar" />
+    </item>
+    <item
+        jar="/home/joe/AndroidStudioProjects/TicTacToe/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/joe/AndroidStudioProjects/TicTacToe/app/build/intermediates/pre-dexed/debug/classes-a1df6e830d032b6cf7488c3a8c11f9ac467443a9.jar" />
+    </item>
+    <item
+        jar="/home/joe/AndroidStudioProjects/TicTacToe/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/joe/AndroidStudioProjects/TicTacToe/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-28e1c99677b277395979c5e4a0ac6feb01ea3435.jar" />
+    </item>
+
+</items>
