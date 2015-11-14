@@ -28,12 +28,6 @@ public class GameLoop extends Thread{
         return boardPosition;
     }
 
-    // draw board
-    public void render(Board board){
-
-    }
-
-
 
     // Game Logic starts here
 
@@ -53,10 +47,10 @@ public class GameLoop extends Thread{
     @Override
     public void run() {
         while (gameState == GameState.ONGOING) {
-            move = getMove(currentPlayer);  // returns row and column index of the player's placement
+            //move = getMove(currentPlayer);  // returns row and column index of the player's placement
             board.updateBoard(currentPlayer, move[0], move[1]);
             gameState = board.updateGameState();
-            render(board);
+            //render(board);
         }
     }
 }
