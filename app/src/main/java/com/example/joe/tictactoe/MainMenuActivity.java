@@ -7,7 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.content.Intent;
 
-public class MainMenu extends AppCompatActivity {
+public class MainMenuActivity extends AppCompatActivity {
 
     public static final String GAME_MODE = "com.example.joe.tictactoe.GAMEMODE";
 
@@ -40,7 +40,7 @@ public class MainMenu extends AppCompatActivity {
     }
 
     public void startSinglePlayer(View view){
-        Intent intent = new Intent(this,SinglePlayer.class);
+        Intent intent = new Intent(this,SinglePlayerActivity.class);
         startActivity(intent);
     }
 
