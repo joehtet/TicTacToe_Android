@@ -3,5 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.joe.tictactoe.SinglePlayerActivity">
-
+    <SurfaceView
+        android:id="@+id/game_board"
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
 </RelativeLayout>

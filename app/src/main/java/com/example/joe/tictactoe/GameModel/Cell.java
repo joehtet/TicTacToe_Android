@@ -18,4 +18,7 @@ public class Cell {
     public void setCellState(Token cellState){
         this.cellState = cellState;
     };
+    public Token getCellState(){
+        return this.cellState;
+    }
 }

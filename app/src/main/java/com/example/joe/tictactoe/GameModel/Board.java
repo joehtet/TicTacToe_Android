@@ -22,7 +22,7 @@ public class Board{
 
 
     public void updateBoard(Player currentPlayer, int moveRow, int moveColumn){
-        board[moveRow][moveColumn].setCellState(currentPlayer.playerToken);
+        board[moveRow][moveColumn].setCellState(currentPlayer.getPlayerToken());
     }
 
     public GameState updateGameState(){

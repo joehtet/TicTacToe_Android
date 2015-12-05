@@ -11,45 +11,32 @@ import com.example.joe.tictactoe.GameModel.Token;
  */
 public class GameLoop extends Thread{
 
-    // Fields and Methods
+    // variables
     public GameState gameState;
 
+    // constructor
     public GameLoop(){
         super();
     }
 
+    // methods
+            // set game state
     public void setGameState(GameState gameState){
         this.gameState = GameState.ONGOING;
     }
 
-    // get move from player input and return board position .... [row,column]
+            // get move from player input and return board position .... [row,column]
     public int[] getMove(Player currentPlayer){
         int[] boardPosition = {1,1};
         return boardPosition;
     }
-
-
-    // Game Logic starts here
-
-    // instantiate 3x3 board with empty cells.
-    Board board = new Board(3,3);
-
-    // create players and assign tokens to players
-    Player player1 = new Player(Token.CIRCLE);
-    Player player2 = new Player(Token.CROSS);
-
-    // variables
-    Player currentPlayer = player2;  // player1 makes first move
-    int[] move = new int[2];
-
 
     // start game loop
     @Override
     public void run() {
         while (gameState == GameState.ONGOING) {
             //move = getMove(currentPlayer);  // returns row and column index of the player's placement
-            board.updateBoard(currentPlayer, move[0], move[1]);
-            gameState = board.updateGameState();
+            //update board
             //render(board);
         }
     }
